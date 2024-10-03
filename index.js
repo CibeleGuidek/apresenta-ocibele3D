@@ -11,12 +11,34 @@ console.log(`ola eu sou a ${nomeCompleto}, eu tenho ${idade} de idade, moro em $
 
 
 anoatual = 2025;
+
+console.log (anoatual)
+
 idade = 17;
 
 
 console.log(`Para meu ano que vem, desejo já ter um emprego e começar a juntar dinheiro para a faculdade. Agora tenho ${idade}, e meu nome agora mudou para Cibele, não mais sendo ${nomeCompleto} E eu moro em sao jose dos pinhais agora, não mais em ${cidadeatual}`);
 
 //Agencia de vaiagens
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+console.log("                   LOGIN                            ");
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+
+const loginCerto = "Mestrekaeya";
+const senhaCerta = "Diluclixo";
+
+var login = entrada("Digite o seu login: ");
+var senha = entrada("Digite sua senha: ");
+
+while(login != loginCerto) {
+  console.log("Pereça.")
+  login = entrada("Digite novamente seu login: ");
+}
+
+while(senha != senhaCerta) {
+  console.log("naoeresomestre");
+  senha = entrada("Digite novamente sua senha: ");
+}
 
 var nomeComprador = entrada("Qual é seu nome?");
 var cpfComprador = entrada("Qual seria seu cpf?");
