@@ -20,9 +20,9 @@ idade = 17;
 console.log(`Para meu ano que vem, desejo já ter um emprego e começar a juntar dinheiro para a faculdade. Agora tenho ${idade}, e meu nome agora mudou para Cibele, não mais sendo ${nomeCompleto} E eu moro em sao jose dos pinhais agora, não mais em ${cidadeatual}`);
 
 //Agencia de vaiagens
-console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-console.log("                   LOGIN                            ");
-console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+console.log("-----------------------------------------------------");
+console.log("                   LOGIN                             ");
+console.log("-----------------------------------------------------");
 
 const loginCerto = "Mestrekaeya";
 const senhaCerta = "Diluclixo";
@@ -61,5 +61,5 @@ if(idadeComprador<18){
 console.log(`Infelizmente não podemos lhe vender uma passagem, pois o senhor(a) é menor de idade`)
 }
 if(idadeComprador>=18){
-  console.log(`Tudo certo!, sua passagem já consta em nosso sistema. Você verá as seguintes viagens confirmadas: ${listadeDestinos}`)
+  console.log(`Tudo certo!, sua passagem já consta em nosso sistema. Você verá as seguintes viagens confirmadas: ${listadeDestinos}. \u{1F97A} `)
 }
